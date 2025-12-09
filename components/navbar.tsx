@@ -20,7 +20,6 @@ export default function Navbar() {
         <div className="hidden md:flex gap-6 text-gray-300">
           <Link href="/" className="hover:text-white transition">Anasayfa</Link>
           <Link href="/blog" className="hover:text-white transition">Blog & Notlar</Link>
-          <Link href="/hesaplama" className="hover:text-white transition text-blue-400 font-semibold">Puan Hesapla</Link>
           <Link href="/hakkimda" className="hover:text-white transition">Hakkımda</Link>
         </div>
 
@@ -52,9 +51,6 @@ export default function Navbar() {
           </Link>
           <Link href="/blog" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded block">
             Blog & Notlar
-          </Link>
-          <Link href="/hesaplama" onClick={() => setIsOpen(false)} className="text-blue-400 font-bold hover:bg-gray-700 p-2 rounded block">
-            Puan Hesapla
           </Link>
           <Link href="/hakkimda" onClick={() => setIsOpen(false)} className="text-gray-300 hover:text-white hover:bg-gray-700 p-2 rounded block">
             Hakkımda
