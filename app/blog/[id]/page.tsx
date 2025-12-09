@@ -24,7 +24,7 @@ const posts = [
   {
     id: 4,
     title: "Bilgisayar Mühendisliği İsteyenlere Tavsiyeler",
-    content: "Sadece kod yazmak değil, problem çözmek mühendisliğin temelidir. Eğer analitik düşünmeyi seviyorsan bu bölüm tam sana göre. Üniversiteye girmeden önce İngilizce'ni halletmelisin.",
+    content: "Sadece kod yazmak değil, problem çözmek mühendisliğin temelidir. Eğer analitik düşünmeyi seviyorsan bu bölüm tam sana göre. Üniversiteye girmeden önce İngilizceni halletmelisin.",
     date: "01 Aralık 2025",
   },
 ];
